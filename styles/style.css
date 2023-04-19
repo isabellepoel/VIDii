@@ -35,11 +35,97 @@ button:not([disabled]) {
 /* ALGEMENE STYLING */
 /********************/
 
+
+
 h1 {
   color:var(--color-headings);
+  display: flex;
+  justify-content: center;
 }
 
 
 /* ... */
 
 
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin:0;
+  display:grid;
+  grid-template-columns:6em 8em 8em 6em;
+  grid-template-rows: 3.5em 4em 1.5em 6em;
+  gap:.5em;
+}
+
+li {
+  background-color: pink;
+}
+
+li:nth-of-type(1) {
+  background-color: deeppink;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+li:nth-of-type(1) img {
+  height: 4em;
+}
+
+li:nth-of-type(2) {
+  background-color: lime;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+li:nth-of-type(3) {
+  background-color: blue;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+li:nth-of-type(4) {
+  background-color: purple;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+li:nth-of-type(5) {
+  background-color: yellow;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+li:nth-of-type(6) {
+  background-color:aqua;
+  grid-column-start: 4;
+  grid-column-end:5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+li:nth-of-type(7) {
+  background-color:aquamarine;
+  grid-column-start: 1;
+  grid-column-end:2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+li:nth-of-type(8) {
+  background-color:blueviolet;
+  grid-column-start: 3;
+  grid-column-end:4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
