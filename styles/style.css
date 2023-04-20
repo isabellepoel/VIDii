@@ -24,7 +24,7 @@ button:not([disabled]) {
 /*********************/
 
 :root {
-  --color-headings:crimson
+  --color-headings:crimson;
 }
 
 
@@ -35,18 +35,79 @@ button:not([disabled]) {
 /* ALGEMENE STYLING */
 /********************/
 
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color:#FF86DB;
+  /* background-image: url("../images/images\ 2.jpeg");  */
+  background-size: cover;
+  
+  
+  /* andere achtergrond-eigenschappen */
+}
 
+header {
+  text-align: center;
+}
 
+header img {
+  width: 10%;
+  height: 10%;
+}
 h1 {
-  color:var(--color-headings);
-  display: flex;
-  justify-content: center;
+  color:white;
+  text-align: center;
+  font-size: 95%;
+}
+
+p {
+  text-align: center;
 }
 
 
-/* ... */
+ 
 
+main {
+  
+  
+} 
 
+.praatwolkje {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 1em;
+  max-width: 200em;
+  text-align: center;
+  
+}
+
+.praatwolkje::before {
+  content: "";
+  position: absolute;
+  top: -20em;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 10em 10em 0 10em;
+  border-color: #fff transparent transparent transparent;
+  
+}
+
+ /* Code door Daniëlle geschreven */
+.barbie {
+  position: fixed;
+  width: 6em;
+  height: 6em;
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -120%);
+}
 
 ol {
   list-style: none;
@@ -56,76 +117,175 @@ ol {
   grid-template-columns:6em 8em 8em 6em;
   grid-template-rows: 3.5em 4em 1.5em 6em;
   gap:.5em;
+  background-image: url("../images/barbie-huis.svg");
+  background-size: cover;
+  width: 30.5em;
+  height: 22.12611em;
+  padding: .5em;
+  place-content: end;
+  margin:0 auto;
 }
 
 li {
-  background-color: pink;
+  /* background-color: pink; */
+    /* de li als grid ouder van de img */
+    display:grid;
+    justify-items: center;
+    align-items:end;
+    padding:.25em;
 }
 
 li:nth-of-type(1) {
-  background-color: deeppink;
+  /* de li als grid kind van de ol */
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 5;
+  
+  background-image:
+    url("../images/kamer\ 2.webp"),
+    linear-gradient(
+      rgb(255 255 255 / 0), 
+      rgb(255 255 255 / .7)
+    );
+  background-size: cover;
+  background-position: center;
+
+  background-blend-mode: screen;
 }
 
-li:nth-of-type(1) img {
+li img {
   height: 4em;
+  filter: drop-shadow(0 0 .25em black);
 }
 
 li:nth-of-type(2) {
-  background-color: lime;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 5;
+
+  background-image: 
+  url("../images/kamer\ barbie\ huis.webp"),
+  linear-gradient(
+    rgb(255 255 255 / 0), 
+    rgb(255 255 255 / .7)
+  );
+  
+  background-size: cover;
+  background-position: center;
+
+  background-blend-mode:screen; 
 }
 
 li:nth-of-type(3) {
-  background-color: blue;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
+
+  background-image: 
+  url("../images/kamer\ 3.jpg"),
+  linear-gradient(
+    rgb(255 255 255 / 0), 
+    rgb(255 255 255 / .7)
+  );
+  background-size: cover;
+  background-position: center;
+
+  background-blend-mode: screen;
 }
 
 li:nth-of-type(4) {
-  background-color: purple;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5;
+
+  background-image: 
+url("../images/kamer\ 10.jpg"),
+linear-gradient(
+  rgb(255 255 255 / 0), 
+  rgb(255 255 255 / .7)
+);
+background-size: cover;
+background-position: center;
+
+background-blend-mode: screen;
+
 }
 
 li:nth-of-type(5) {
-  background-color: yellow;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 4;
+
+  background-image: 
+  url(../images/kamer\ 7.jpg),
+  linear-gradient(
+    rgb(255 255 255 / 0), 
+    rgb(255 255 255 / .7)
+  );
+background-size: cover;
+background-position: center;
+
+background-blend-mode: screen;
+
 }
 
 li:nth-of-type(6) {
-  background-color:aqua;
   grid-column-start: 4;
   grid-column-end:5;
   grid-row-start: 2;
   grid-row-end: 4;
+
+  background-image: 
+  url(../images/kamer\ 8.jpg),
+  linear-gradient(
+    rgb(255 255 255 / 0), 
+    rgb(255 255 255 / .7)
+  );
+background-size: cover;
+background-position: center;
+
+background-blend-mode: screen;
 }
 
 li:nth-of-type(7) {
-  background-color:aquamarine;
   grid-column-start: 1;
   grid-column-end:2;
   grid-row-start: 4;
   grid-row-end: 5;
+
+  background-image: 
+  url(../images/kamer\ 6.jpg),
+  linear-gradient(
+    rgb(255 255 255 / 0), 
+    rgb(255 255 255 / .7)
+  );
+  background-size: cover;
+  background-position: center;
+  
+  background-blend-mode: screen;
+
+
 }
 
 li:nth-of-type(8) {
-  background-color:blueviolet;
   grid-column-start: 3;
   grid-column-end:4;
   grid-row-start: 1;
   grid-row-end: 3;
+
+  background-image: 
+  url(../images/kamer\ 9.jpeg),
+  linear-gradient(
+    rgb(255 255 255 / 0), 
+    rgb(255 255 255 / .7)
+  );
+  background-size: cover;
+  background-position: center;
+  
+  background-blend-mode: screen;
 }
