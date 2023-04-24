@@ -42,13 +42,26 @@ body {
   /* background-image: url("../images/images\ 2.jpeg");  */
   background-size: cover;
   
+  background-image: repeating-linear-gradient(to right, pink 0% 3%, #F9629F 3% 6%);
   
   /* andere achtergrond-eigenschappen */
+  perspective: 30em;
 }
+
+body::before {
+  content:"";
+  position: fixed;
+  inset:60% 0 0 0;
+
+  background-image: repeating-linear-gradient(to right, pink 0% 3%, #F9629F 3% 6%);
+  transform-origin: top;
+  transform: rotateX(30deg);
+} 
 
 header {
   text-align: center;
 }
+
 
 header img {
   width: 10%;
@@ -68,34 +81,25 @@ p {
  
 
 main {
-  
+  position: relative;
+  z-index: 100;
   
 } 
 
-.praatwolkje {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  border-radius: 1em;
-  padding: 1em;
-  max-width: 200em;
-  text-align: center;
-  
+
+
+.barbie:hover {
+  filter: brightness(110%);
+}
+.barbie {
+  transition: filter 0.3s ease-in-out;
 }
 
-.praatwolkje::before {
-  content: "";
-  position: absolute;
-  top: -20em;
-  left: 50%;
-  transform: translateX(-50%);
-  border-style: solid;
-  border-width: 10em 10em 0 10em;
-  border-color: #fff transparent transparent transparent;
-  
+.barbie:hover {
+  filter: brightness(150%);
 }
+
+
 
  /* Code door Daniëlle geschreven */
 .barbie {
@@ -106,8 +110,12 @@ main {
   margin: 0;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -120%);
+  transform: translate(-50%, -70%);
+
 }
+
+
+
 
 ol {
   list-style: none;
@@ -124,6 +132,11 @@ ol {
   padding: .5em;
   place-content: end;
   margin:0 auto;
+  
+  position: fixed;
+  left:50%;
+  top:50%;
+  translate: -50% -50%;
 }
 
 li {
@@ -135,6 +148,9 @@ li {
     padding:.25em;
 }
 
+li :hover {
+  filter: brightness(110%);
+}
 li:nth-of-type(1) {
   /* de li als grid kind van de ol */
   grid-column-start: 2;
@@ -152,6 +168,7 @@ li:nth-of-type(1) {
   background-position: center;
 
   background-blend-mode: screen;
+  
 }
 
 li img {
