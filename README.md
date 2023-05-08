@@ -12,10 +12,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Isabelle Poel
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw 
 
 
 
@@ -26,15 +26,15 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+<img src="images/Schetsen voor barbie huis.png" alt="">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik wil ten eerste html en css begrijpen omdat ik hier nog nooit mee heb gewerkt. Dus het begrijpen hiervan is een groot punt. 
+  - Ik wil css gebruiken om de pagina vorm te geven en stijl toe te voegen, zoals het kiezen van kleuren en lettertypen die passen bij het thema van het Barbie-huis.
+  - Ik wil leren hoe ik een grid kan maken in css, omdat ik dit nodig ga hebben om een barbie huis te kunnen realiseren. 
+
  
 </details>
 
