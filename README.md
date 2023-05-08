@@ -26,7 +26,7 @@ Blauw
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-<img src="readme-images/Schetsen voor barbie huis.png" alt="">
+  <img src="readme-images/schetsen-barbiehuis.png" width="375px" alt="">
 
 
   ### Je ambitie: 
