@@ -49,7 +49,7 @@ Blauw
   ### Bevinding 1:
   Feedback van Luna en Daniëlle op mijn eerste ideeën.
 
-  <img src="readme-images/Feedback-versie-1.1.png" alt="">
+   <img src="readme-images/Feedback-versie-1.1.png" width="375px" alt="">
 
   #### oplossing:
  Aangezien Luna hier aangeeft dat er waarschijnlijk met Javascript gewerkt moet worden bij Idee 2, kies ik inderdaad liever voor optie 1. Ik wil eerst html en css begrijpen. 
@@ -57,7 +57,7 @@ Blauw
 
 
   ### Bevinding 2:
-  <img src="readme-images//Feedback-versie-1.2.png" alt="">
+  <img src="readme-images/Feedback-versie-1.2.png" width="375px" alt="">
 
   #### oplossing:
  Een goed idee van Daniëlle om mijn tijdlijn interactief te maken. Ik wil dus leren hoe ik een hover effect kan creëren. Ik ga bij elk jaartal een beschrijving toevoegen van hoe Barbie in dat jaar is geëvolueerd. Dit krijg je te zien als je op een jaartal klikt. 
@@ -65,7 +65,7 @@ Blauw
 
 
   ### Bevinding 3:
-   <img src="readme-images//Feedback-versie-1.3.png" alt="">
+  <img src="readme-images/Feedback-versie-1.3.png" width="375px" alt="">
 
    #### oplossing:
   Ik vind dit ook een goed idee voor mijn design. Barbie is een speels karakter. Door de jaartallen op willekeurige volgorde te zetten zet ik dat speelse effect door in mijn design. 
@@ -73,7 +73,7 @@ Blauw
 
 
   ### Bevinding 4:
-   <img src="readme-images//Feedback-versie-1.4.png" alt="">
+  <img src="readme-images/Feedback-versie-1.4.png" width="375px" alt="">
 
    #### oplossing:
   Ik ga de basis van het huis in illustrator maken. Voor de vakjes in het huis maak ik een grid. 
@@ -81,7 +81,7 @@ Blauw
 
 
   ### Bevinding 5:
-   <img src="readme-images//Feedback-versie-1.5.png" alt="">
+  <img src="readme-images/Feedback-versie-1.5.png" width="375px" alt="">
 
    #### oplossing:
   Na alle feedback te hebben gehoord is het duidelijk dat idee 1 het beste is voor iemand die net begint met coderen. Dit idee zal ik dan ook voortzetten.
@@ -97,8 +97,8 @@ Blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   Feedback van Nina
-  <img src="readme-images/feedback-nina.png" width="375px" alt="final ontwerp">
-    <img src="readme-images/feedback-nina-1.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/feedback-nina.png" width="375px" alt="">
+    <img src="readme-images/feedback-nina-1.png" width="375px" alt="">
   
   
   ### Bevinding 1:
@@ -250,6 +250,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 7. https://lolsdolls.com/en/barbie-dreamhouse/  
 8. https://www.spreadshirt.nl/shop/design/barbie+logo+neon+roze+sticker-D63778e50623cef1f109cc860?sellable=vrjzk8038nSxAXeQnoOq-1459-215   
 9. https://aminoapps.com/c/barbiecute/page/item/myr/X00k_LjMUXIgLVDoBKBRmgPo3zZaQaM70w2  
-
+10. http://www.barbiemedia.com/timeline.html
 
 </details>
