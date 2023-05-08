@@ -51,12 +51,9 @@ body {
   width: 100vw;
   height: 100vh;
   background-color:#FF86DB;
-  /* background-image: url("../images/images\ 2.jpeg");  */
   background-size: cover;
   
   background-image: repeating-linear-gradient(to right, pink 0% 3%, #F9629F 3% 6%);
-  
-  /* andere achtergrond-eigenschappen */
   perspective: 30em;
 
   overflow: hidden;
@@ -70,7 +67,7 @@ body::before {
 
   background-image: repeating-linear-gradient(to right, pink 0% 3%, #F9629F 3% 6%);
   transform-origin: top;
-  transform: rotateX(30deg);
+  transform: rotateX(75deg);
 } 
 
 header {
@@ -131,15 +128,13 @@ main {
 }
 
 
-
 .barbie-car {
   transform: scaleX(-1);
   position: absolute;
-  top: 30em;
+  top: 25em;
   left: 0;
-  height: 10em;
-  width: 12em;
-  /* Andere gewenste stijlregels */
+  height: 18em;
+  width: 17em;
   animation: carAnimation 11s ease-in-out infinite;
 }
 
@@ -193,20 +188,7 @@ ol {
 
 
 
-
-/* Maak de container een flex container */
-div {
-  display: flex;
-  justify-content: center; /* Horizontaal centreren */
-  align-items: center; /* Verticaal centreren */
-  flex-direction: column; /* Stapel de elementen op elkaar */
-  height: 25vh; /* Optioneel: stel de hoogte van de container in */
-}
-
-
-
-
-li {
+ol > li {
   /* background-color: pink; */
     /* de li als grid ouder van de img */
     display:grid;
@@ -216,28 +198,26 @@ li {
 }
 
 
-li::after {
-  content: "Klik op een Barbie om te zien hoe ik ben veranderd door de jaren heen!"; /* voeg hier de gewenste tekst toe */
-  position: absolute;
-  bottom: 30%; /* plaats de praatwolk boven de li */
-  left: 75%; /* plaats de praatwolk in het midden van de li */
-  transform: translateX(-50%); /* centreer de praatwolk horizontaal */
-  background-color: white; /* achtergrondkleur van de praatwolk */
-  color:black; /* tekstkleur van de praatwolk */
-  padding: 0.5em; /* voeg wat ruimte rondom de tekst toe */
-  border-radius: 0.5em; /* ronde hoeken voor de praatwolk */
-  font-size: 0.5;
-  z-index: 999; /* zet de z-index naar een hoog getal om de praatwolk naar de voorgrond te verplaatsen */
+ol > li::after {
+  /* content: "Klik op een Barbie om te zien hoe ik ben veranderd door de jaren heen!"; /* voeg hier de gewenste tekst toe */
+  /* position: absolute; */
+  /* bottom: 30%; plaats de praatwolk boven de li */
+  /* left: 75%; plaats de praatwolk in het midden van de li */
+  /* transform: translateX(-50%); centreer de praatwolk horizontaal */
+  /* background-color: white; achtergrondkleur van de praatwolk */
+  /* color:black; tekstkleur van de praatwolk */
+  /* padding: 0.5em; voeg wat ruimte rondom de tekst toe */
+  /* border-radius: 0.5em; ronde hoeken voor de praatwolk */
+  /* font-size: 0.5; */
+  /* z-index: 999; zet de z-index naar een hoog getal om de praatwolk naar de voorgrond te verplaatsen */ */
 }
 
 
 
-li :hover {
-  filter: brightness(110%);
-}
 
 
-li:nth-of-type(1) {
+
+ol > li:nth-of-type(1) {
   /* de li als grid kind van de ol */
   grid-column-start: 2;
   grid-column-end: 3;
@@ -259,7 +239,7 @@ li:nth-of-type(1) {
   
 }
 
-li > button {
+ol > li > button {
   appearance:none; 
   /* weg met de standaardstyling, ik bepaalf zelf wel hoe die eruit ziet. */
   background-color: transparent;
@@ -269,20 +249,24 @@ li > button {
 }
 
 
-li img {
+ol > li button img {
   height: 4em;
   filter: drop-shadow(0 0 .25em black);
 }
 
-li > button:focus img {
+ol > li > button:focus img {
   filter: drop-shadow(0 0 .25em dodgerblue) drop-shadow(0 0 .25em deeppink) drop-shadow(0 0 .25em rgb(255, 0, 0));
 }
 
-li > button:active {
+ol > li > button img:hover {
+  filter: brightness(110%);
+}
+
+ol > li > button:active {
   scale:1.1;
 } 
 
-li:nth-of-type(2) {
+ol > li:nth-of-type(2) {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 3;
@@ -301,7 +285,7 @@ li:nth-of-type(2) {
   background-blend-mode:screen; 
 }
 
-li:nth-of-type(3) {
+ol > li:nth-of-type(3) {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -319,7 +303,7 @@ li:nth-of-type(3) {
   background-blend-mode: screen;
 }
 
-li:nth-of-type(4) {
+ol > li:nth-of-type(4) {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 4;
@@ -338,7 +322,7 @@ background-blend-mode: screen;
 
 }
 
-li:nth-of-type(5) {
+ol > li:nth-of-type(5) {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -357,7 +341,7 @@ background-blend-mode: screen;
 
 }
 
-li:nth-of-type(6) {
+ol > li:nth-of-type(6) {
   grid-column-start: 4;
   grid-column-end:5;
   grid-row-start: 2;
@@ -375,7 +359,7 @@ background-position: center;
 background-blend-mode: screen;
 }
 
-li:nth-of-type(7) {
+ol > li:nth-of-type(7) {
   grid-column-start: 1;
   grid-column-end:2;
   grid-row-start: 4;
@@ -395,7 +379,7 @@ li:nth-of-type(7) {
 
 }
 
-li:nth-of-type(8) {
+ol > li:nth-of-type(8) {
   grid-column-start: 3;
   grid-column-end:4;
   grid-row-start: 1;
@@ -413,34 +397,143 @@ li:nth-of-type(8) {
   background-blend-mode: screen;
 }
 
+/* DIALOG */
 
-
-
-li dialog {
-  width:calc(70vw - 2em);
-  height:calc(70vh - 2em);
-  padding:7em;
+dialog {
+  width:min(70vw, 40em);
+  height:70vh;
+  padding:0;
   background-color: pink;
 }
 
-li dialog form {
+dialog form {
   height:100%;
-  background-color: pink;
-  display: flow-root;
+  /* background-color: pink; */
+  /* display: flow-root;  */
+  display:grid;
+  grid-template-columns: 10em 1fr;
 }
 
-<style>
-	ol {
-		padding: 0;
-		list-style-type: none;
-	}
 
-	ol li {
-		text-align: center;
-	}
+dialog form menu {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  margin:0;
+}
 
-	ol li img {
-		display: block;
-		margin: 0 auto;
-	}
-</style>
+dialog form menu li {
+color: #F9629F;
+}
+
+menu {
+  display: flex; /* maak een flex-container */
+  flex-direction: column;
+  /* flex-wrap: wrap;  */
+  /* zorg ervoor dat items omvouwen wanneer de container te klein wordt */
+  list-style: none; /* verwijder de standaard opsommingstekens */
+  padding: 1em; /* verwijder de standaard opvulling */
+}
+
+menu li {
+  flex-grow:1;
+  /* flex: 1 0 100px;  */
+  /* maak de items flexibel, met een initiële breedte van 100px */
+  margin: 5px; /* voeg een kleine marge tussen de items toe */
+}
+
+menu li button {
+  font-family: 'Barbie', sans-serif, Arial;
+  display: block; /* maak de knoppen blok-elementen */
+  width: 100%; 
+  /* laat de knoppen de volledige breedte van het item innemen */
+  height: 100%; /* laat de knoppen de volledige hoogte van het item innemen */
+  /* padding: 1em;  */
+  /* voeg een beetje opvulling toe om de knoppen er wat mooier uit te laten zien */
+  background-color:#F9629F; /* voeg een achtergrondkleur toe aan de knoppen */
+  border: none; /* verwijder de standaard randen van de knoppen */
+  border-radius: 1em; /* voeg afgeronde hoeken toe aan de knoppen */
+  cursor: pointer; /* verander de muiscursor in een handje als eroverheen wordt gehoverd */
+  transition: background-color 0.3s ease; /* voeg een vloeiende overgang toe bij het wijzigen van de achtergrondkleur */
+  appearance: none;
+}
+
+menu li button:hover {
+  background-color:#FF86DB; /* verander de achtergrondkleur van de knoppen bij hover */
+}
+
+
+dialog form div {
+  /* display: flex; */
+  /* justify-content: center; Horizontaal centreren */
+  /* align-items: center; Verticaal centreren */
+  /* flex-direction: column; Stapel de elementen op elkaar */
+  /* height: 25vh; */
+  /* Optioneel: stel de hoogte van de container in */
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+
+  /* grid voor de div */
+  display: grid;
+  grid-template-columns: 1fr minmax(20em, 2fr);
+  column-gap: 1em;
+  align-self: stretch;
+  padding:1em;
+}
+
+ol > li dialog div section {
+align-self: center;
+gap:1em;
+display:grid;
+}
+
+ol > li dialog div h2 {
+  /* grid-column-start: 2;
+  grid-column-end: 3; 
+  grid-row-start: 1;
+  grid-row-end: 2; */
+  margin:0;
+  /* align-self: end; */
+  text-align: center;
+}
+
+ol > li dialog div p {
+  /* grid-column-start: 2;
+  grid-column-end: 3; 
+  grid-row-start: 2;
+  grid-row-end: 3; */
+  margin:0;
+}
+
+ol > li dialog img:nth-of-type(1) {
+  display:block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width:min(100%, 12em);
+  align-self: center;
+}
+
+ol > li dialog img:nth-of-type(2) {
+  display:block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2 ;
+  width:min(100%, 12em);
+  align-self: center;
+}
+
+
+ol > li dialog form > button {
+  grid-column-start: 2;
+  grid-column-end: 3; 
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: end;  
+  align-self:start;
+  color: #F9629F;
+  background-color: pink;
+}
