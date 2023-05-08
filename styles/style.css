@@ -115,6 +115,7 @@ main {
 
 
  /* Code door Daniëlle geschreven */
+ /* Stijl van de barbie-afbeelding */
 .barbie {
   position: fixed;
   width: 6em;
@@ -127,7 +128,7 @@ main {
   z-index: 1;
 }
 
-
+/* Stijl van de barbie auto afbeelding */
 .barbie-car {
   transform: scaleX(-1);
   position: absolute;
@@ -142,6 +143,7 @@ main {
   position: relative;
 }
 
+/* Stijl van de keyframes voor de auto animatie*/
 @keyframes carAnimation {
   0% {
     right: 0;
@@ -161,7 +163,7 @@ main {
   }
 }
 
-
+/* Stijl van de ol */
 ol {
   list-style: none;
   padding: 0;
@@ -229,7 +231,6 @@ ol > li:nth-of-type(1) {
 
 ol > li > button {
   appearance:none; 
-  /* weg met de standaardstyling, ik bepaalf zelf wel hoe die eruit ziet. */
   background-color: transparent;
   border:none;
   outline: none;
@@ -431,15 +432,12 @@ menu li {
 
 menu li button {
   font-family: 'Barbie', sans-serif, Arial;
-  display: block; /* maak de knoppen blok-elementen */
+  display: block; 
   width: 100%; 
-  /* laat de knoppen de volledige breedte van het item innemen */
-  height: 100%; /* laat de knoppen de volledige hoogte van het item innemen */
-  /* padding: 1em;  */
-  /* voeg een beetje opvulling toe om de knoppen er wat mooier uit te laten zien */
-  background-color:#F9629F; /* voeg een achtergrondkleur toe aan de knoppen */
-  border: none; /* verwijder de standaard randen van de knoppen */
-  border-radius: 1em; /* voeg afgeronde hoeken toe aan de knoppen */
+  height: 100%; 
+  background-color:#F9629F; 
+  border: none; 
+  border-radius: 1em; 
   cursor: pointer; /* verander de muiscursor in een handje als eroverheen wordt gehoverd */
   transition: background-color 0.3s ease; /* voeg een vloeiende overgang toe bij het wijzigen van de achtergrondkleur */
   appearance: none;
@@ -451,12 +449,6 @@ menu li button:hover {
 
 
 dialog form div {
-  /* display: flex; */
-  /* justify-content: center; Horizontaal centreren */
-  /* align-items: center; Verticaal centreren */
-  /* flex-direction: column; Stapel de elementen op elkaar */
-  /* height: 25vh; */
-  /* Optioneel: stel de hoogte van de container in */
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;

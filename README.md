@@ -97,8 +97,8 @@ Blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   Feedback van Nina
-   <img src="readme-images//feedback-nina.HEIC" alt="">
-    <img src="readme-images//feedback-nina-1.HEIC" alt="">
+  <img src="readme-images/feedback-nina.png" width="375px" alt="final ontwerp">
+    <img src="readme-images/feedback-nina-1.png" width="375px" alt="final ontwerp">
   
   
   ### Bevinding 1:
@@ -230,8 +230,8 @@ Ik heb duidelijker aangegeven welke code bij wat hoort door comments te plaatsen
   <img src="readme-images/reflectie-5.png" width="375px" alt="final ontwerp">
 
   - Aan de costum properties heb ik geen tijd meer besteed. Hier baal ik van, maar ik heb niemand meer om hulp kunnen vragen. 
-
-
+  - De barbie's passen niet allemaal goed in het frame. Ik wilde dit aanpassen op photoshop maar als ik dit deed werden de barbies in het huis ook allemaal heel klein. Dit is dus niet gelukt
+<img src="readme-images/reflectie-7.png" width="375px" alt="final ontwerp">
 
 
 ## Bronnenlijst
