@@ -26,7 +26,7 @@ Blauw
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-<img src="images/Schetsen voor barbie huis.png" alt="">
+<img src="readme-images/Schetsen voor barbie huis.png" alt="">
 
 
   ### Je ambitie: 
@@ -49,7 +49,7 @@ Blauw
   ### Bevinding 1:
   Feedback van Luna en Daniëlle op mijn eerste ideeën.
 
-  <img src="images/Feedback versie 1.1.png" alt="">
+  <img src="readme-images/Feedback-versie-1.1.png" alt="">
 
   #### oplossing:
  Aangezien Luna hier aangeeft dat er waarschijnlijk met Javascript gewerkt moet worden bij Idee 2, kies ik inderdaad liever voor optie 1. Ik wil eerst html en css begrijpen. 
@@ -57,7 +57,7 @@ Blauw
 
 
   ### Bevinding 2:
-  <img src="images/Feedback versie 1.2.png" alt="">
+  <img src="readme-images//Feedback-versie-1.2.png" alt="">
 
   #### oplossing:
  Een goed idee van Daniëlle om mijn tijdlijn interactief te maken. Ik wil dus leren hoe ik een hover effect kan creëren. Ik ga bij elk jaartal een beschrijving toevoegen van hoe Barbie in dat jaar is geëvolueerd. Dit krijg je te zien als je op een jaartal klikt. 
@@ -65,7 +65,7 @@ Blauw
 
 
   ### Bevinding 3:
-   <img src="images/Feedback versie 1.3.png" alt="">
+   <img src="readme-images//Feedback-versie-1.3.png" alt="">
 
    #### oplossing:
   Ik vind dit ook een goed idee voor mijn design. Barbie is een speels karakter. Door de jaartallen op willekeurige volgorde te zetten zet ik dat speelse effect door in mijn design. 
@@ -73,7 +73,7 @@ Blauw
 
 
   ### Bevinding 4:
-   <img src="images/Feedback versie 1.4.png" alt="">
+   <img src="readme-images//Feedback-versie-1.4.png" alt="">
 
    #### oplossing:
   Ik ga de basis van het huis in illustrator maken. Voor de vakjes in het huis maak ik een grid. 
@@ -81,7 +81,7 @@ Blauw
 
 
   ### Bevinding 5:
-   <img src="images/Feedback versie 1.5.png" alt="">
+   <img src="readme-images//Feedback-versie-1.5.png" alt="">
 
    #### oplossing:
   Na alle feedback te hebben gehoord is het duidelijk dat idee 1 het beste is voor iemand die net begint met coderen. Dit idee zal ik dan ook voortzetten.
@@ -97,8 +97,8 @@ Blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   Feedback van Nina
-   <img src="images/feedback-nina.HEIC" alt="">
-    <img src="images/feedback-nina-1.HEIC" alt="">
+   <img src="readme-images//feedback-nina.HEIC" alt="">
+    <img src="readme-images//feedback-nina-1.HEIC" alt="">
   
   
   ### Bevinding 1:
@@ -205,20 +205,31 @@ Ik heb duidelijker aangegeven welke code bij wat hoort door comments te plaatsen
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/reflectie-1.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/reflectie-2.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/reflectie-3.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/reflectie-4.png" width="375px" alt="final ontwerp">
+   
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  - Ik heb geleerd hoe html en css in verband staan met elkaar. Ik heb geleerd hoe onderdelen aan elkaar gekoppeld zijn in code. Ik had nooit verwacht dat ik  uberhaupt iets zou kunnen neerzetten in code en dit is toch gelukt. Het design wat ik in mijn hoofd had, heb ik eerst uitgewerkt in illustrator zodat ik een duidelijk beeld had van wat ik wilde. Dit design heb ik zo goed als na kunnen maken met code en daar ben ik trots op. (zie afbeelding).
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+<img src="readme-images/reflectie-6.png" width="375px" alt="final ontwerp">
+
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  - Ik vond het lastig om de vormgeving los te laten. Het formulier dat opent als je op één van de Barbie's klikt vind ik bijvoorbeeld vrij amateuristicsh eruit zien. Ik heb dit moeten loslaten omdat ik nou eenmaal een beginner ben. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
+   <img src="readme-images/reflectie-3.png" width="375px" alt="final ontwerp">
+
+   - Ik had heel graag nog een praatwolkje aan de Barbie in het midden willen toevoegen die een uitleg gaf over mijn design. (zie afbeelding hieronder). Hierdoor zou de kijker gelijk zien hoe er genavigeerd moet worden. Nu is dit misschien nog wat onduidelijk. Helaas ben ik hier noiet aan toegekomen en werd de code mij te lastig. 
+
+  <img src="readme-images/reflectie-5.png" width="375px" alt="final ontwerp">
+
+  - Aan de costum properties heb ik geen tijd meer besteed. Hier baal ik van, maar ik heb niemand meer om hulp kunnen vragen. 
 
 
 
@@ -230,8 +241,15 @@ Ik heb duidelijker aangegeven welke code bij wat hoort door comments te plaatsen
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.artsy.net/artwork/mattel-first-barbie   
+2. https://www.nrc.nl/nieuws/2009/03/09/barbie-moet-het-nu-opnemen-tegen-prinsessen-van-disney-11694735-a1198793 
+3. https://indianexpress.com/photos/lifestyle-gallery/evolution-of-barbie-over-the-decades/ 
+4. https://www.google.com/search?q=the+generation+girl+barbie&tbm=isch&ved=2ahUKEwiJmdrL7OX-AhXDi_0HHfl6AkgQ2-cCegQIABAA&oq=the+generation+gir&gs_lcp=CgNpbWcQARgAMgQIIxAnMgQIIxAnOggIABAIEB4QEzoFCAAQgAQ6CAgAEIAEELEDOggIABCxAxCDAToHCAAQigUQQzoLCAAQgAQQsQMQgwE6BAgAEB46BwgAEBMQgAQ6BggAEAgQHlDfA1jvPGDGRmgDcAB4AIABTIgBnAqSAQIyMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=4vtYZImgJcOX9u8P-fWJwAQ&bih=789&biw=1440&rlz=1C5CHFA_enNL896NL896#imgrc=YEDvkEbaRsiOwM&imgdii=t1gFk9XsTQErJM 
+5. https://www.washingtonpost.com/news/business/wp/2016/07/12/how-president-barbie-has-changed-over-the-years/  
+6. https://www.bol.com/nl/nl/p/barbie-fashionistas-curvy-blond-fashion-giftset/9200000059354176/  
+7. https://lolsdolls.com/en/barbie-dreamhouse/  
+8. https://www.spreadshirt.nl/shop/design/barbie+logo+neon+roze+sticker-D63778e50623cef1f109cc860?sellable=vrjzk8038nSxAXeQnoOq-1459-215   
+9. https://aminoapps.com/c/barbiecute/page/item/myr/X00k_LjMUXIgLVDoBKBRmgPo3zZaQaM70w2  
+
 
 </details>
